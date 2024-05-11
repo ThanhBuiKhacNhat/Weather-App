@@ -17,7 +17,7 @@ function App() {
         
         <div className='bg-white w-[15rem] overflow-hidden shadow-2x1 rounded flex items-center p-2 gap-2'>
         
-            <img src={search} alt="Search" />
+            <img src={search} alt="Search" className='w-[1.5rem] h-[1.5rem]' />
         
             <input onKeyU = {(e) => {
               if (e.key === 'Enter'){
